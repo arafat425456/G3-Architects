@@ -8,6 +8,8 @@ body.work-sans-<uniquifier> {
   font-weight: <weight>;
   font-style: normal;
 }
+ .text-light-gray{
+    color: #424242;}
 .btn-primary{
     border-radius: 8px;
     background-color: #FF900E;
@@ -62,9 +64,8 @@ nav li a{
     color: #131313;
 
 }
-.banner-description{
-    color: #424242;
-}
+
+
 img{
     width: 100%;
     margin-top: 20px;
@@ -72,7 +73,7 @@ img{
 /* main style */
 main{
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 70px auto;
 }
 
 .tems-containar{
@@ -82,7 +83,7 @@ main{
 .tems-img-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 1.5rem;
     /* margin-left: 220px; */
 }
 .tems-content{
@@ -109,8 +110,15 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .tems-containar{
         flex-direction: column;
+    }
+    .tems-img-container{
+        grid-template-columns: 1fr;
+    }
+    .tems-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }
@@ -121,7 +129,7 @@ main{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .tems-containar{
         flex-direction: column;
     }
 }
