@@ -126,6 +126,22 @@ main{
     color: #727272;
     margin-top: 5px;
 }
+.sponsors{
+    text-align: center;
+    align-items: center;
+}
+.sponsors-img-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    
+}
+.sponsors-img-container img{
+    width: 165px;
+    /* align-items: center; */
+}
 
 
 
@@ -142,15 +158,18 @@ main{
         padding: 20px;
     }
 
-    nav,.tems-contaner{
+    nav,.tems-contaner,.facts-card-container, .sponsors-img-container{
         flex-direction: column;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content, .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 
 }
@@ -159,7 +178,7 @@ main{
         padding: 50px;
     }
     
-    nav, .tems-contaner {
+    nav, .tems-contaner,.facts-card-container, .sponsors-img-container {
         flex-direction: column;
     }
 
