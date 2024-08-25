@@ -1,138 +1,53 @@
-/* work sans font by goole  */
+/* wark sans font  */
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
-/* shared style  */
+
 body.work-sans-<uniquifier> {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
- .text-light-gray{
-    color: #424242;}
-.section-title{
-    font-size: 2.8rem;
-    font-weight: 700px;
-    color: #131313;}
-
-.btn-primary{
-    border-radius: 8px;
-    background-color: #FF900E;
-    border: 0px;
-    padding: 20px 25px;
-    color: #FFFFFF;
-    font-size: 1.25rem;
-   cursor: pointer;
-   
-
-}
-/* header style  */
+/* heder style  */
 header{
-    background-color: #FFF4E7;
+    background-color: #fff4e7;
     padding: 50px 240px;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-nav >ul{
+nav > ul{
     display: flex;
+
 }
 nav li{
     list-style: none;
-    margin-right: 20px;
+    margin-right: 30px;
     font-weight: 500px;
     font-size: 1rem;
-   
 }
 nav li a{
     text-decoration: none;
     color: #424242;
 }
-/* banner style   */
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700px;
+    color: #131313;
+}
+/* banner style  */
 .banner-content{
     max-width: 800px;
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 .banner-title{
     font-size: 4rem;
     font-weight: 700px;
     color: #131313;
-
 }
-
-
-img{
-    width: 100%;
-    margin-top: 20px;
-}
-/* main style */
-main{
-    max-width: 1440px;
-    margin: 70px auto;
-}
-
-.tems-containar{
-    display: flex;
-    align-items: center;
-}
-.tems-img-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-    /* margin-left: 220px; */
-}
-.tems-content{
-    padding-left: 70px;
-    padding-right: 70px;
-}
-.tems-title{
-    font-size: 2.8rem;
-}
-.tems-title .quick-list{
+.banner-description{
     color: #727272;
-    font-weight: 500px;
 }
-.tex-features{
-    color: #FF900E;
-    font-weight: 700px;
-}
-
-
-/* responsive style  */
-/* mobile device  */
-
-@media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }
-    nav, .tems-containar{
-        flex-direction: column;
-    }
-    .tems-img-container{
-        grid-template-columns: 1fr;
-    }
-    .tems-content{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-}
-
-
-@media screen and (min-width: 576px) and (max-width:992px) {
-
-    header{
-        padding: 50px;
-    }
-    nav, .tems-containar{
-        flex-direction: column;
-    }
-}
-
