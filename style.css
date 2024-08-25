@@ -69,6 +69,37 @@ img{
     width: 100%;
     margin-top: 20px;
 }
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.tems-containar{
+    display: flex;
+    align-items: center;
+}
+.tems-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    /* margin-left: 220px; */
+}
+.tems-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.tems-title{
+    font-size: 2.8rem;
+}
+.tems-title .quick-list{
+    color: #727272;
+    font-weight: 500px;
+}
+.tex-features{
+    color: #FF900E;
+    font-weight: 700px;
+}
 
 
 /* responsive style  */
